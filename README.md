@@ -3,7 +3,7 @@ Repsository ini merupakan latihan project git untuk project mulai dari develop h
 
 commonly command git i ussualy used
 Getting and Inizialization project 
-| Command GIT   | comment       |
+| Command GIT   | comment       |  
 | ------------- | ------------- |
 | `Git init`  | initialize local git repository  |
 | Git clone   | clone other repository  |
@@ -16,3 +16,17 @@ Getting and Inizialization project
 | git rm -r [file-name.txt]     | remove some file if we needed  |
 | git commit -m "[commit message]"      | commit and giving message  |
 | `git push`     | push change to remote repository (based previous branch) |
+| `git branch`     | to see branch  |
+
+Other Command 
+| Command GIT     | comment       |
+| -------------   | ------------- |
+| `Git checkout`     | to navigate or swith between the branch |
+| git clean      | we can used this to undo untracked file, so we can remove using it  |
+| `git commit --amend`     | add or remove changes from the Git staging area to apply with a --amend commit. |
+| `Git fetch`     | download other repo, but not save in our locak repository |
+| git merge      | to merge some branch, and bring it together again  |
+| `Git pull`     | download branch from repo, then immediate to merge with current branch |
+| git rebase      | Git rebase changes the base of the developer's branch from one commit to another  |
+| `Git remote`     | git remote command lets you create, view, and delete connections to other repositories |
+| git revert     | going to previous version but not all subsequent commits |
